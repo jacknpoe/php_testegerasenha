@@ -1,16 +1,14 @@
 <?php
 	//***********************************************************************************************
 	// AUTOR: Ricardo Erick Rebêlo
-	// Objetivo: "rolar" dados dos RPGs de mesa mais 
-	// Versão Original (Pastebin https://pastebin.com/Vj16ynRh): 02/07/2014 - Ricardo Erick Rebêlo
+	// Objetivo: Gerar senhas com números, maiúsculas, minúsculas e símbolos
 	// Alterações:
-	// 0.1   21/04/2023 - Conversão
-	// 1.0   21/04/2023 - Publicação
+	// 1.0   03/06/2023 - Publicação
 
 	namespace jacknpoe;
 
 	//***********************************************************************************************
-	// Classe DungeonsAndDragos (D&D)
+	// Classe GeraSenha
 
 	class GeraSenha
 	{
