@@ -23,7 +23,7 @@
 				$resultado = 'Senha: ' . $GeradorSenha->GeraSenha( (int)$tamanho);
 			}
 		?>
-		<h1>Gerador de Senhas</h1><br>
+		<h1>Gerador de Senhas</h1>
 
 		<form action="php_testegerasenha.php" method="POST" style="border: 0px">
 			<p>Tamanho: <input type="text" name="tamanho" value="<?php echo htmlspecialchars( $tamanho, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, "ISO-8859-1"); ?>" style="width: 50px" autofocus></p>
