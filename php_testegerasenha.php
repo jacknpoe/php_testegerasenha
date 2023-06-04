@@ -20,7 +20,7 @@
 
 				$tamanho =  $_POST['tamanho'];
 
-				$resultado = 'Senha: ' . $GeradorSenha->GeraSenha( (int)$tamanho);
+				$resultado = 'Senha: ' . htmlspecialchars( $GeradorSenha->GeraSenha( (int)$tamanho), ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, "ISO-8859-1");
 			}
 		?>
 		<h1>Gerador de Senhas</h1>
